@@ -3,11 +3,11 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 
 type Props = {};
-export default class Detail extends Component<Props> {
+export default class My extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>欢迎来到详情页面</Text>
+        <Text style={styles.welcome}>欢迎来到我的主页</Text>
       </View>
     );
   }

@@ -28,6 +28,11 @@ const MainNavigator = createStackNavigator({
   DetailPage: {
     screen: Detail,
     navigationOptions: {
+    }
+  },
+  TrendingPage: {
+    screen: Trending,
+    navigationOptions: {
       header: null
     }
   }
@@ -41,5 +46,3 @@ export default createSwitchNavigator({
     header: null
   }
 });
-
-
