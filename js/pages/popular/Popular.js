@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Button, StyleSheet, Text, View} from 'react-native';
 import {createMaterialTopTabNavigator} from "react-navigation"
 import NavigationUtil from "../../navigator/NavigationUtil"
 
@@ -32,13 +32,14 @@ export default class Popular extends Component<Props> {
 
 class PopularTab extends Component<Props> {
   render() {
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to Popular!</Text>
         <Text onPress={() => {
           NavigationUtil.goPage({
-            navigation:this.props.navigation
-          },"DetailPage")
+            navigation: this.props.navigation
+          }, "DetailPage")
         }}>跳转到详情页</Text>
       </View>
     );

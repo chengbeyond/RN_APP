@@ -97,14 +97,20 @@ export default class Home extends Component<Props> {
   //   const Tab = this._tabNavigator();
   //   return <Tab/>;
   // }
+  constructor(props) {
+    super(props);
+    // console.disableYellowBox = true
+  }
+
   _tabNavigator() {
     const {Popular, Trending, Detail, My} = TABS;
     // 根据需要定制显示的tab
-    const tabs = {Popular, Trending, Detail,My};
-    Detail.navigationOptions.tabBarLabel="2019";
+    const tabs = {Popular, Trending, Detail, My};
+    Detail.navigationOptions.tabBarLabel = "2019";
     // 动态配置路由内容
     return createBottomTabNavigator(tabs,)
   }
+
   render() {
     NavigationUtil.navigation = this.props.navigation;
     const Tab = this._tabNavigator();
