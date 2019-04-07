@@ -35,8 +35,7 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
-.ssh
-说明.txt
+
 # BUCK
 buck-out/
 \.buckd/

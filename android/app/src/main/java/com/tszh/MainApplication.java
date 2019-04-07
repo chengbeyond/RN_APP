@@ -1,4 +1,4 @@
-package com.myapp;
+package com.tszh;
 
 import android.app.Application;
 
