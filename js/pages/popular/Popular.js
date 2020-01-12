@@ -10,13 +10,13 @@ export default class Popular extends Component<Props> {
       PopularTab1: {
         screen: PopularTab,
         navigationOptions: {
-          title: "TAB 1"
+          title: "TAB页码 1"
         }
       },
       PopularTab2: {
         screen: PopularTab,
         navigationOptions: {
-          title: "TAB 2"
+          title: "TAB页码 2"
         }
       }
     });

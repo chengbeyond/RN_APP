@@ -7,7 +7,7 @@ export default class Trending extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>欢迎来到趋势页面</Text>
+        <Text style={styles.welcome}>欢迎来到趋势页</Text>
       </View>
     );
   }

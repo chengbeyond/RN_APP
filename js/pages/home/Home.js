@@ -12,7 +12,7 @@ import My from "../my/My";
 
 
 type Props = {};
-const TABS = { // 配置路由页面
+const TABS = { // 配置路由的页面
   Popular: {
     screen: Popular,
     navigationOptions: {

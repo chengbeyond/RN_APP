@@ -7,7 +7,7 @@ export default class My extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>欢迎来到我的主页</Text>
+        <Text style={styles.welcome}>欢迎来到主页</Text>
       </View>
     );
   }
